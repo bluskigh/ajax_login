@@ -1,0 +1,27 @@
+html, body { margin: 0; padding: 0; }
+body {
+    background: rgb(23, 22, 22);
+    color: white;
+}
+#main { 
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    transition: .5s ease;
+    padding: .5em 1em;
+    margin: 0 .5em;
+    text-decoration: none;
+}
+.button:hover {
+    background: lightgreen;
+    color: black;
+    transform: translateY(-10px);
+}
