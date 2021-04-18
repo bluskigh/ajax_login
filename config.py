@@ -5,4 +5,4 @@ SQLALCHEMY_DATABASE_URI='postgresql://temp:1234@localhost:5432/ajax_login'
 # domain/port
 # database name 
 
-
+SECRET_KEY="something"
